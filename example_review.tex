@@ -1,0 +1,89 @@
+\documentclass{agimusslidesreview}
+
+\agimustitlelocation{
+    \textbf{1\textsuperscript{st} review meeting}\\29/11/2023\\Online
+}
+\title{Progress on \wpFour}
+\author{Vladim\'{\i}r~Petr\'{\i}k}
+\institute{\textbf{CTU}, CNRS, INRIA}
+\date{1\textsuperscript{st} Review Meeting, 29/11/2023}
+
+\def\videodir {../videos/}
+
+%\includeonlyframes{current}
+
+
+\begin{document}
+    \agimustitleframe
+
+    \overviewframe{
+        \begin{enumerate}[label=\protect\itemincircle{\arabic*}]
+            \item \alert{WP4 Identity, Timeline and Overall progress}
+            \begin{itemize}
+                \item Identity
+                \item Timeline
+                \item Overall progress
+            \end{itemize}
+            \item \alert{Aims, Methodology, Expected results, Implementation, Results and Challenges per task}
+            \begin{itemize}
+                \item \taskFourOne
+                \item \taskFourTwo
+                \item \taskFourThree
+                \item \taskFourFour
+            \end{itemize}
+            \item \alert{Next steps}
+        \end{enumerate}
+    }
+
+    \agimussubtitleframe{WP4}{Identity, Timeline and Overall progress}
+
+    \begin{frame}{WP4 Identity}
+        \begin{itemize}
+            \item[{$\vcenter{\hbox{\includegraphics[width=0.8cm]{figs_review/contributors_fig}}}$}]
+            \alert{WP4 Leader:} \textbf{CTU}, \alert{Contributors:} \textbf{CNRS, INRIA}
+            \item[{$\vcenter{\hbox{\includegraphics[width=0.8cm]{figs_review/calendar_fig}}}$}]
+            \alert{Duration:} \textbf{M7 - M38}
+            \item[{$\vcenter{\hbox{\includegraphics[width=0.8cm]{figs_review/objective_fig}}}$}] \alert{Objectives}
+            \begin{itemize}
+                \item Develop a high-accuracy and robust \alert{vision perception module} for estimating object 6D pose.
+                \item Develop \alert{MPC}, reacting to \alert{multimodal vision and haptic} feedback, warm-started by a motion dataset and able to
+                avoid collisions and respect all robot constraints.
+                \item Design adaptable controller able to react online to \alert{situations unseen during offline training}.
+            \end{itemize}
+            \item[{$\vcenter{\hbox{\includegraphics[width=0.8cm]{figs_review/task_fig}}}$}] \alert{Tasks}
+            \begin{itemize}
+                \item \taskFourOne
+                \item \taskFourTwo
+                \item \taskFourThree
+                \item \taskFourFour
+            \end{itemize}
+        \end{itemize}
+    \end{frame}
+
+
+    \agimussubtitleframe{
+        Task 4.1: High-accuracy feedback from perception
+    }{
+        \alert{Leader:} \textnormal{\textcolor{agimusgray}{CTU}}\\
+        \alert{Support:} \textnormal{\textcolor{agimusgray}{CNRS, INRIA}}\\
+        \alert{Duration:} \textnormal{\textcolor{agimusgray}{M7 - M36}}\\
+        \alert{Staus:} \textnormal{\textcolor{agimusgray}{ongoing}}\\
+    }
+
+    \begin{frame}{Questions and Answers}
+        \begin{minipage}[t]{0.5\textwidth}
+            \vspace{0pt}
+            \includegraphics[width=0.5\linewidth]{figs_review/question_mark}
+        \end{minipage}%
+        \begin{minipage}[t]{0.5\textwidth}
+            \vspace{0pt}
+            \flushright
+            \vspace{2cm}
+            \alert{\large Contact details} \\[\agimustitlesep]
+            Vladimir Petrik \\
+            CTU \\
+            vladimir.petrik@cvut.cz
+        \end{minipage}
+    \end{frame}
+
+\end{document}
