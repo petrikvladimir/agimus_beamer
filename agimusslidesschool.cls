@@ -29,9 +29,9 @@
 
 \newif\iffooter\footertrue
 
-% Set default aspect ration to 1610
+% Set default aspect ration to 1609
 \RequirePackage{kvoptions}
-\DeclareStringOption[1610]{aspectratio}
+\DeclareStringOption[1609]{aspectratio}
 \ProcessKeyvalOptions{agimusslidesschool}\relax
 \PassOptionsToClass{aspectratio=\agimusslidesschool@aspectratio}{beamer}
 
