@@ -117,14 +117,13 @@
             {\color{agimusgray} \tiny \mdseries \titlelocation \\}
 %        \vspace{1.5cm}
         \includegraphics[width=0.35\linewidth]{figs_school/logo} \\
-        \vspace{3.0cm}
+        \vspace{2.0cm}
         {\color{white}
         {\bfseries \Large \inserttitle}  \\[\agimustitlesep]
         \insertauthor \\
         \insertinstitute \\
         \insertdate \\
         }
-%    todo: figs in row - do we want to show them?
         \begin{tikzpicture}[remember picture,overlay]
             \node[yshift=-\agimusfooterplace] at (current page.north west) [anchor=north west] {\includegraphics[height=0.9\agimussymbolheight]{figs_school/logos_in_row}};
         \end{tikzpicture}
