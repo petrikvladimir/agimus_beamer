@@ -29,7 +29,7 @@
 
 % Set default aspect ration to 1610
 \RequirePackage{kvoptions}
-\DeclareStringOption[1610]{aspectratio}
+\DeclareStringOption[1609]{aspectratio}
 \ProcessKeyvalOptions{agimusslidesreview}\relax
 \PassOptionsToClass{aspectratio=\agimusslidesreview@aspectratio}{beamer}
 
